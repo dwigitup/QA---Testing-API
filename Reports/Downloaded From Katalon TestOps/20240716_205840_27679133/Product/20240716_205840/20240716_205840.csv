@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Product,Chrome 126.0.0.0,,,16-07-2024 20:58:47,16-07-2024 20:58:57,9.988s,PASSED
+,,,,,,,
+Test Cases/Web/Login - Success Login,Chrome 126.0.0.0,,,16-07-2024 20:58:47,16-07-2024 20:58:55,7.851s,PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,16-07-2024 20:58:47,16-07-2024 20:58:49,2.265s,PASSED
+navigateToUrl(baseUrl),Chrome 126.0.0.0,,,16-07-2024 20:58:49,16-07-2024 20:58:51,1.983s,PASSED
+"setText(findTestObject(""Login/input_email""), ""dwi11@gmail.com"")",Chrome 126.0.0.0,,,16-07-2024 20:58:51,16-07-2024 20:58:52,0.861s,PASSED
+"setText(findTestObject(""Login/input_password""), ""dwi123"")",Chrome 126.0.0.0,,,16-07-2024 20:58:52,16-07-2024 20:58:53,0.599s,PASSED
+"click(findTestObject(""Login/btn_login""))",Chrome 126.0.0.0,,,16-07-2024 20:58:53,16-07-2024 20:58:53,0.342s,PASSED
+"verifyElementText(findTestObject(""Homepage/txtnama_toko""), ""Dwi1999"")",Chrome 126.0.0.0,,,16-07-2024 20:58:53,16-07-2024 20:58:55,1.533s,PASSED
+,,,,,,,
+Test Cases/Web/Product/Product - Success Access Product,Chrome 126.0.0.0,,,16-07-2024 20:58:55,16-07-2024 20:58:57,1.924s,PASSED
+"click(findTestObject(""Homepage/button_product""))",Chrome 126.0.0.0,,,16-07-2024 20:58:55,16-07-2024 20:58:55,0.303s,PASSED
+"verifyElementVisible(findTestObject(""Homepage/Produk/title_produk""))",Chrome 126.0.0.0,,,16-07-2024 20:58:55,16-07-2024 20:58:57,1.542s,PASSED

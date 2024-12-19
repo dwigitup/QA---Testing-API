@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Product" time="9.988" tests="2" failures="0" errors="0">
+   <testsuite name="Product" tests="2" failures="0" errors="0" time="9.988" skipped="0" timestamp="16-07-2024T20:58:47" hostname="lenovo - LAPTOP-NA0GJP9V" id="Test Suites/Product">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\lenovo\\OneDrive\\Dokumen\\Katalon\\Automate-11JULI2024\\Reports\\20240716_205840\\Product\\20240716_205840"/>
+         <property name="logFiles" value="C:\\Users\\lenovo\\OneDrive\\Dokumen\\Katalon\\Automate-11JULI2024\\Reports\\20240716_205840\\Product\\20240716_205840\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="lenovo - LAPTOP-NA0GJP9V"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.100.23"/>
+         <property name="sessionId" value="f6b3d3964130dcba70ce041f566c5791"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Web/Login - Success Login" time="7.851" classname="Test Cases/Web/Login - Success Login" status="PASSED">
+         <system-out><![CDATA[16-07-2024T20:58:47 - [TEST_CASE][PASSED] - Test Cases/Web/Login - Success Login: Test Cases/Web/Login - Success Login
+
+16-07-2024T20:58:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+16-07-2024T20:58:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+16-07-2024T20:58:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+16-07-2024T20:58:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+16-07-2024T20:58:49 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://kasirdemo.belajarqa.com' successfully
+
+16-07-2024T20:58:51 - [MESSAGE][PASSED] - Navigate to 'https://kasirdemo.belajarqa.com' successfully
+
+16-07-2024T20:58:51 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_email"), "dwi11@gmail.com"): Text 'dwi11@gmail.com' is set on object 'Object Repository/Login/input_email'
+
+16-07-2024T20:58:52 - [MESSAGE][PASSED] - Text 'dwi11@gmail.com' is set on object 'Object Repository/Login/input_email'
+
+16-07-2024T20:58:52 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_password"), "dwi123"): Text 'dwi123' is set on object 'Object Repository/Login/input_password'
+
+16-07-2024T20:58:53 - [MESSAGE][PASSED] - Text 'dwi123' is set on object 'Object Repository/Login/input_password'
+
+16-07-2024T20:58:53 - [TEST_STEP][PASSED] - click(findTestObject("Login/btn_login")): Object: 'Object Repository/Login/btn_login' is clicked on
+
+16-07-2024T20:58:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btn_login' is clicked on
+
+16-07-2024T20:58:53 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Homepage/txtnama_toko"), "Dwi1999"): Actual text and expected text of test object 'Object Repository/Homepage/txtnama_toko' are matched.
+
+16-07-2024T20:58:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Homepage/txtnama_toko' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web/Product/Product - Success Access Product" time="1.924" classname="Test Cases/Web/Product/Product - Success Access Product" status="PASSED">
+         <system-out><![CDATA[16-07-2024T20:58:55 - [TEST_CASE][PASSED] - Test Cases/Web/Product/Product - Success Access Product: Test Cases/Web/Product/Product - Success Access Product
+
+16-07-2024T20:58:55 - [TEST_STEP][PASSED] - click(findTestObject("Homepage/button_product")): Object: 'Object Repository/Homepage/button_product' is clicked on
+
+16-07-2024T20:58:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Homepage/button_product' is clicked on
+
+16-07-2024T20:58:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Homepage/Produk/title_produk")): Object 'Object Repository/Homepage/Produk/title_produk' is visible
+
+16-07-2024T20:58:57 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Produk/title_produk' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[16-07-2024T20:58:47 - [TEST_SUITE][PASSED] - Product: Test Cases/Web/Product/Product - Success Access Product]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

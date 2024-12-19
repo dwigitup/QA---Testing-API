@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Restfull,,,,19-12-2024 16:29:42,19-12-2024 16:29:47,5.659s,PASSED
+,,,,,,,
+Test Cases/Restful-booker/GET - TC 1 Booking,,,,19-12-2024 16:29:42,19-12-2024 16:29:46,4.025s,PASSED
+"response = sendRequest(findTestObject(""object/GET - Booking""))",,,,19-12-2024 16:29:42,19-12-2024 16:29:46,3.812s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,19-12-2024 16:29:46,19-12-2024 16:29:46,0.019s,PASSED
+,,,,,,,
+Test Cases/Restful-booker/POST - TC 1 Auth Booking,,,,19-12-2024 16:29:46,19-12-2024 16:29:46,0.409s,PASSED
+"response = sendRequest(findTestObject(""object/POST - Auth Booking""))",,,,19-12-2024 16:29:46,19-12-2024 16:29:46,0.329s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,19-12-2024 16:29:46,19-12-2024 16:29:46,0.003s,PASSED
+,,,,,,,
+Test Cases/Restful-booker/POST - TC 1 Create Booking,,,,19-12-2024 16:29:46,19-12-2024 16:29:47,0.656s,PASSED
+"response = sendRequest(findTestObject(""object/POST - Create Booking""))",,,,19-12-2024 16:29:47,19-12-2024 16:29:47,0.322s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,19-12-2024 16:29:47,19-12-2024 16:29:47,0.004s,PASSED
+"verifyElementPropertyValue(response, ""booking.firstname"", nama)",,,,19-12-2024 16:29:47,19-12-2024 16:29:47,0.062s,PASSED
+"verifyElementPropertyValue(response, ""booking.totalprice"", 11000)",,,,19-12-2024 16:29:47,19-12-2024 16:29:47,0.034s,PASSED
+responseBody = response.getResponseBodyContent(),,,,19-12-2024 16:29:47,19-12-2024 16:29:47,0.007s,PASSED
+jsonResponse = JsonSlurper().parseText(responseBody),,,,19-12-2024 16:29:47,19-12-2024 16:29:47,0.004s,PASSED
+bookingId = bookingid,,,,19-12-2024 16:29:47,19-12-2024 16:29:47,0.002s,PASSED
+bookingId = bookingId,,,,19-12-2024 16:29:47,19-12-2024 16:29:47,0.001s,PASSED
+"println(""Parsed JSON Response: "" + jsonResponse)",,,,19-12-2024 16:29:47,19-12-2024 16:29:47,0.007s,PASSED
+"println(""Booking ID: "" + bookingId)",,,,19-12-2024 16:29:47,19-12-2024 16:29:47,0.002s,PASSED
+"println(""Booking ID saved to Global Variable: "" + bookingId)",,,,19-12-2024 16:29:47,19-12-2024 16:29:47,0.001s,PASSED
+,,,,,,,
+Test Cases/Restful-booker/GET - TC 1 Ping,,,,19-12-2024 16:29:47,19-12-2024 16:29:47,0.381s,PASSED
+"response = sendRequest(findTestObject(""object/GET - Ping""))",,,,19-12-2024 16:29:47,19-12-2024 16:29:47,0.323s,PASSED
+"code = verifyResponseStatusCode(response, 201)",,,,19-12-2024 16:29:47,19-12-2024 16:29:47,0.003s,PASSED

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Kategori" time="9.915" tests="2" failures="0" errors="0">
+   <testsuite name="Kategori" tests="2" failures="0" errors="0" time="9.915" skipped="0" timestamp="16-07-2024T21:18:48" hostname="lenovo - LAPTOP-NA0GJP9V" id="Test Suites/Kategori">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\lenovo\\OneDrive\\Dokumen\\Katalon\\Automate-11JULI2024\\Reports\\20240716_211840\\Kategori\\20240716_211840"/>
+         <property name="logFiles" value="C:\\Users\\lenovo\\OneDrive\\Dokumen\\Katalon\\Automate-11JULI2024\\Reports\\20240716_211840\\Kategori\\20240716_211840\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="lenovo - LAPTOP-NA0GJP9V"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.100.23"/>
+         <property name="sessionId" value="3e8547df257ad3d9c4cc85757480650d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Web/Login - Success Login" time="8.747" classname="Test Cases/Web/Login - Success Login" status="PASSED">
+         <system-out><![CDATA[16-07-2024T21:18:48 - [TEST_CASE][PASSED] - Test Cases/Web/Login - Success Login: Test Cases/Web/Login - Success Login
+
+16-07-2024T21:18:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+16-07-2024T21:18:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+16-07-2024T21:18:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+16-07-2024T21:18:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+16-07-2024T21:18:50 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://kasirdemo.belajarqa.com' successfully
+
+16-07-2024T21:18:53 - [MESSAGE][PASSED] - Navigate to 'https://kasirdemo.belajarqa.com' successfully
+
+16-07-2024T21:18:53 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_email"), "dwi11@gmail.com"): Text 'dwi11@gmail.com' is set on object 'Object Repository/Login/input_email'
+
+16-07-2024T21:18:54 - [MESSAGE][PASSED] - Text 'dwi11@gmail.com' is set on object 'Object Repository/Login/input_email'
+
+16-07-2024T21:18:54 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_password"), "dwi123"): Text 'dwi123' is set on object 'Object Repository/Login/input_password'
+
+16-07-2024T21:18:54 - [MESSAGE][PASSED] - Text 'dwi123' is set on object 'Object Repository/Login/input_password'
+
+16-07-2024T21:18:54 - [TEST_STEP][PASSED] - click(findTestObject("Login/btn_login")): Object: 'Object Repository/Login/btn_login' is clicked on
+
+16-07-2024T21:18:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btn_login' is clicked on
+
+16-07-2024T21:18:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Homepage/txtnama_toko"), "Dwi1999"): Actual text and expected text of test object 'Object Repository/Homepage/txtnama_toko' are matched.
+
+16-07-2024T21:18:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Homepage/txtnama_toko' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web/Kategori/Kategori - Success Access Kategori" time="1.004" classname="Test Cases/Web/Kategori/Kategori - Success Access Kategori" status="PASSED">
+         <system-out><![CDATA[16-07-2024T21:18:56 - [TEST_CASE][PASSED] - Test Cases/Web/Kategori/Kategori - Success Access Kategori: Test Cases/Web/Kategori/Kategori - Success Access Kategori
+
+16-07-2024T21:18:57 - [TEST_STEP][PASSED] - click(findTestObject("Homepage/button_kategori")): Object: 'Object Repository/Homepage/button_kategori' is clicked on
+
+16-07-2024T21:18:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Homepage/button_kategori' is clicked on
+
+16-07-2024T21:18:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Homepage/Kategori/title_kategori")): Object 'Object Repository/Homepage/Kategori/title_kategori' is visible
+
+16-07-2024T21:18:57 - [MESSAGE][PASSED] - Object 'Object Repository/Homepage/Kategori/title_kategori' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[16-07-2024T21:18:48 - [TEST_SUITE][PASSED] - Kategori: Test Cases/Web/Kategori/Kategori - Success Access Kategori]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

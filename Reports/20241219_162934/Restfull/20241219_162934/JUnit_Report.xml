@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Restfull" time="5.659" tests="4" failures="0" errors="0">
+   <testsuite name="Restfull" tests="4" failures="0" errors="0" time="5.659" skipped="0" timestamp="19-12-2024T16:29:42" hostname="lenovo - LAPTOP-NA0GJP9V" id="Test Suites/Restfull">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\lenovo\\Katalon Studio\\Testing\\Reports\\20241219_162934\\Restfull\\20241219_162934"/>
+         <property name="logFiles" value="C:\\Users\\lenovo\\Katalon Studio\\Testing\\Reports\\20241219_162934\\Restfull\\20241219_162934\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="lenovo - LAPTOP-NA0GJP9V"/>
+         <property name="hostAddress" value="192.168.100.23"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+      </properties>
+      <testcase name="Test Cases/Restful-booker/GET - TC 1 Booking" time="4.025" classname="Test Cases/Restful-booker/GET - TC 1 Booking" status="PASSED">
+         <system-out><![CDATA[19-12-2024T16:29:42 - [TEST_CASE][PASSED] - Test Cases/Restful-booker/GET - TC 1 Booking: Test Cases/Restful-booker/GET - TC 1 Booking
+
+19-12-2024T16:29:42 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("object/GET - Booking")): Send request successfully
+
+19-12-2024T16:29:46 - [MESSAGE][INFO] - HAR: C:\Users\lenovo\Katalon Studio\Testing\Reports\20241219_162934\Restfull\20241219_162934\requests\main\0.har
+
+19-12-2024T16:29:46 - [MESSAGE][PASSED] - Send request successfully
+
+19-12-2024T16:29:46 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+19-12-2024T16:29:46 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Restful-booker/POST - TC 1 Auth Booking" time="0.409" classname="Test Cases/Restful-booker/POST - TC 1 Auth Booking" status="PASSED">
+         <system-out><![CDATA[19-12-2024T16:29:46 - [TEST_CASE][PASSED] - Test Cases/Restful-booker/POST - TC 1 Auth Booking: Test Cases/Restful-booker/POST - TC 1 Auth Booking
+
+19-12-2024T16:29:46 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("object/POST - Auth Booking")): Send request successfully
+
+19-12-2024T16:29:46 - [MESSAGE][INFO] - HAR: C:\Users\lenovo\Katalon Studio\Testing\Reports\20241219_162934\Restfull\20241219_162934\requests\main\1.har
+
+19-12-2024T16:29:46 - [MESSAGE][PASSED] - Send request successfully
+
+19-12-2024T16:29:46 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+19-12-2024T16:29:46 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Restful-booker/POST - TC 1 Create Booking" time="0.656" classname="Test Cases/Restful-booker/POST - TC 1 Create Booking" status="PASSED">
+         <system-out><![CDATA[19-12-2024T16:29:46 - [TEST_CASE][PASSED] - Test Cases/Restful-booker/POST - TC 1 Create Booking: Test Cases/Restful-booker/POST - TC 1 Create Booking
+
+19-12-2024T16:29:47 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("object/POST - Create Booking")): Send request successfully
+
+19-12-2024T16:29:47 - [MESSAGE][INFO] - HAR: C:\Users\lenovo\Katalon Studio\Testing\Reports\20241219_162934\Restfull\20241219_162934\requests\main\2.har
+
+19-12-2024T16:29:47 - [MESSAGE][PASSED] - Send request successfully
+
+19-12-2024T16:29:47 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+19-12-2024T16:29:47 - [MESSAGE][PASSED] - Verify response status code successfully
+
+19-12-2024T16:29:47 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "booking.firstname", nama): Verify element property value successfully
+
+19-12-2024T16:29:47 - [MESSAGE][PASSED] - Verify element property value successfully
+
+19-12-2024T16:29:47 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "booking.totalprice", 11000): Verify element property value successfully
+
+19-12-2024T16:29:47 - [MESSAGE][PASSED] - Verify element property value successfully
+
+19-12-2024T16:29:47 - [TEST_STEP][PASSED] - responseBody = response.getResponseBodyContent(): null
+
+19-12-2024T16:29:47 - [TEST_STEP][PASSED] - jsonResponse = JsonSlurper().parseText(responseBody): null
+
+19-12-2024T16:29:47 - [TEST_STEP][PASSED] - bookingId = bookingid: null
+
+19-12-2024T16:29:47 - [TEST_STEP][PASSED] - bookingId = bookingId: null
+
+19-12-2024T16:29:47 - [TEST_STEP][PASSED] - println("Parsed JSON Response: " + jsonResponse): null
+
+19-12-2024T16:29:47 - [TEST_STEP][PASSED] - println("Booking ID: " + bookingId): null
+
+19-12-2024T16:29:47 - [TEST_STEP][PASSED] - println("Booking ID saved to Global Variable: " + bookingId): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Restful-booker/GET - TC 1 Ping" time="0.381" classname="Test Cases/Restful-booker/GET - TC 1 Ping" status="PASSED">
+         <system-out><![CDATA[19-12-2024T16:29:47 - [TEST_CASE][PASSED] - Test Cases/Restful-booker/GET - TC 1 Ping: Test Cases/Restful-booker/GET - TC 1 Ping
+
+19-12-2024T16:29:47 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("object/GET - Ping")): Send request successfully
+
+19-12-2024T16:29:47 - [MESSAGE][INFO] - HAR: C:\Users\lenovo\Katalon Studio\Testing\Reports\20241219_162934\Restfull\20241219_162934\requests\main\3.har
+
+19-12-2024T16:29:47 - [MESSAGE][PASSED] - Send request successfully
+
+19-12-2024T16:29:47 - [TEST_STEP][PASSED] - code = verifyResponseStatusCode(response, 201): Verify response status code successfully
+
+19-12-2024T16:29:47 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[19-12-2024T16:29:42 - [TEST_SUITE][PASSED] - Restfull: Test Cases/Restful-booker/GET - TC 1 Ping]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
