@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>POST - TC 1 Create Booking</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>46ecf376-22e5-4901-956b-a1e28bf30b51</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>854f3770-d906-41d8-8dd3-8515d0c46953</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Dwi'</defaultValue>
+      <description></description>
+      <id>854f3770-d906-41d8-8dd3-8515d0c46953</id>
+      <masked>false</masked>
+      <name>nama</name>
+   </variable>
+</TestCaseEntity>

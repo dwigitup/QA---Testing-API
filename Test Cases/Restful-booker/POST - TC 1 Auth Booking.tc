@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>POST - TC 1 Auth Booking</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e5e7bf24-fc84-4fd0-bf3e-c808a9bbf818</testCaseGuid>
+</TestCaseEntity>
